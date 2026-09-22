@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebLens Sentinel</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        🔒
+      </div>
+
+      <div>
+        <h1>WebLens Sentinel</h1>
+        <p>Security &amp; Privacy Scanner</p>
+      </div>
+    </header>
+
+    <!-- Scan Button -->
+    <button id="scanBtn">
+      Run Security Scan
+    </button>
+
+    <!-- Security Score -->
+    <section class="score-card">
+      <h2>Security Score</h2>
+
+      <div id="score">
+        --
+      </div>
+
+      <div id="riskLevel">
+        Not scanned
+      </div>
+    </section>
+
+    <!-- Security Checks -->
+    <section class="card">
+      <h2>Security Checks</h2>
+
+      <div id="securityResults">
+        <p class="muted">
+          Run a scan to analyze this page.
+        </p>
+      </div>
+    </section>
+
+    <!-- Forms -->
+    <section class="card">
+      <h2>Forms</h2>
+
+      <div id="formResults">
+        <p class="muted">
+          No scan performed.
+        </p>
+      </div>
+    </section>
+
+    <!-- URL Analysis -->
+    <section class="card">
+      <h2>URL Analysis</h2>
+
+      <div id="urlResults">
+        <p class="muted">
+          No URL analysis performed.
+        </p>
+      </div>
+    </section>
+
+    <!-- External Resources -->
+    <section class="card">
+      <h2>External Resources</h2>
+
+      <div id="resourceResults">
+        <p class="muted">
+          No scan performed.
+        </p>
+      </div>
+    </section>
+
+    <!-- Status -->
+    <p id="status"></p>
+
+    <!-- Footer -->
+    <footer>
+      Department of Information Technology | APSIT
+    </footer>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

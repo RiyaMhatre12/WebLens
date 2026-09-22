@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WebLens Sentinel",
+  "version": "1.0.0",
+  "description": "A lightweight browser security analyzer for detecting common webpage security and privacy risks.",
+  "author": "Department of Information Technology | APSIT",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
